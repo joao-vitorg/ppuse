@@ -1,4 +1,4 @@
-import TituloSubtitulo from "../common/TituloSubtitulo.jsx";
+import TituloSubtitulo from "../../common/TituloSubtitulo.jsx";
 
 export default function Anfitriao() {
 	return (
