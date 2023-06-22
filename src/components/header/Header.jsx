@@ -1,11 +1,15 @@
-import { Typography } from "@mui/material";
+import { AppBar, Typography, Toolbar } from "@mui/material";
 
 export default function Header() {
 	return (
 		<header>
-			<Typography variant="h2" fontWeight={"bold"}>
-				Header da página
-			</Typography>
+			<AppBar position={"fixed"} component="nav">
+				<Toolbar>
+					<Typography variant="h6" color="inherit" component="div">
+						Photos
+					</Typography>
+				</Toolbar>
+			</AppBar>
 		</header>
 	);
 }

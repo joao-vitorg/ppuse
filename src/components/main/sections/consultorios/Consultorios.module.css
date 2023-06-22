@@ -9,15 +9,14 @@
 .wrapper {
 	display: flex;
 	flex-direction: column;
-	overflow: scroll;
+	overflow-y: scroll;
+	overflow-x: hidden;
 	width: 30%;
 	gap: 10px;
 }
 
 .img {
 	object-fit: contain;
-	transition: transform 450ms;
-	max-height: 250px;
 }
 
 .wrapperMain {
