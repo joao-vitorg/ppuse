@@ -6,7 +6,7 @@ import { CssBaseline } from "@mui/material";
 
 const theme = createTheme({
 	typography: {
-		fontFamily: "Circular, Roboto",
+		fontFamily: "Circular, sans-serif",
 	},
 	components: {
 		MuiCssBaseline: {

@@ -2,9 +2,10 @@ import TituloSubtitulo from "../../common/TituloSubtitulo.jsx";
 import { useEffect, useState } from "react";
 import { Accordion, AccordionDetails, AccordionSummary, Box, Typography } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { styled } from "@mui/material/styles";
 
 export default function Faq() {
-	const [faq, setFaq] = useState([]);
+	const [faqs, setFaqs] = useState([]);
 	const [expanded, setExpanded] = useState(-1);
 
 	const handleChange = (panel) => (event, newExpanded) => {
@@ -12,30 +13,36 @@ export default function Faq() {
 	};
 
 	useEffect(() => {
-		fetch("https://wilton-filho.github.io/PFJS-GitHub/React/projeto/json/faq2.json")
-			.then((value) => value.json())
-			.then((value) => {
-				console.log(value.faqs);
-				setFaq(value.faqs);
-			});
+		fetch("https://joaopedrocardoso.github.io/faqs-ppuse/faqs.json")
+			.then((file) => file.json())
+			.then((conteudo) => setFaqs(conteudo.faqs));
 	}, []);
+
+	const Icon = styled(ExpandMoreIcon)(({ theme }) => ({
+		color: "#d4676c94",
+	}));
 
 	return (
 		<section>
 			<TituloSubtitulo sectionName={"faqs"} />
 			<Box>
-				{faq.map((value, index) => {
-					return (
-						<Accordion expanded={expanded === index} onChange={handleChange(index)}>
-							<AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1a-content">
-								<Typography>{value["pergunta"]}</Typography>
-							</AccordionSummary>
-							<AccordionDetails>
-								<Typography>{value["resposta"]}</Typography>
-							</AccordionDetails>
-						</Accordion>
-					);
-				})}
+				{faqs.map(({ pergunta, resposta }, index) => (
+					<Accordion
+						key={index}
+						expanded={expanded === index}
+						onChange={handleChange(index)}
+						sx={{
+							marginBottom: "8px",
+						}}
+					>
+						<AccordionSummary expandIcon={<Icon />}>
+							<Typography sx={{ fontWeight: "bold" }}>{pergunta}</Typography>
+						</AccordionSummary>
+						<AccordionDetails>
+							<Typography sx={{ fontWeight: "lighter", wordBreak: "break-word" }}>{resposta}</Typography>
+						</AccordionDetails>
+					</Accordion>
+				))}
 			</Box>
 		</section>
 	);

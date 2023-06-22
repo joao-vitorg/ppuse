@@ -17,8 +17,6 @@
 
 .img {
 	object-fit: contain;
-	transition: transform 450ms;
-	max-height: 250px;
 }
 
 .wrapperMain {
