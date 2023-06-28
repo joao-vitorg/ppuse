@@ -1,0 +1,176 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.conteudo {
+	margin-top: 50px;
+	display: flex;
+	border: 1px solid rebeccapurple;
+	justify-content: center;
+	overflow: visible;
+}
+
+.card {
+	border: 4px solid #55aaa7;
+	border-radius: 25px;
+	height: 270px;
+	margin-top: 50px;
+	margin-left: 33px;
+	margin-right: 33px;
+	width: 70%;
+}
+
+/*
+.cardIcone {
+    background-color: #55AAA7;
+    width: 95px;
+    height: 95px;
+    margin-top: -50px;
+    margin-left: -50px;
+
+}
+
+*/
+
+.cardIcone {
+	background-color: #55aaa7;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	margin-top: -28px;
+	margin-left: -28px;
+	position: relative;
+}
+
+.cardIcone img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 70%;
+}
+
+.cardDivTitulo {
+	margin-top: -25px;
+}
+
+.cardTitulo {
+	color: #55aaa7;
+	border-bottom: 3px solid #d4676d;
+	width: 150px;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.cardDivParagrafo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid red;
+	height: 204px;
+}
+
+.cardParagrafo {
+	font-size: 22px;
+	text-align: center;
+	margin: auto;
+	padding: 25px;
+}
+
+[id="card5"] p {
+	font-size: 21.5px;
+}
+
+.divButton {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.cadastreButton {
+	background-color: #d4676d;
+	border: 0px;
+	border-radius: 10px;
+	width: 300px;
+	height: 60px;
+	transition: 0.3s;
+}
+
+.cadastreButton:hover {
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cadastre {
+	font-size: 22px;
+}
+
+.cadastre:link,
+.cadastre:visited {
+	text-decoration: none;
+	color: white;
+}
+
+@media only screen and (min-width: 1000px) {
+	.container {
+		display: block;
+		flex-direction: row;
+		margin: auto;
+		width: 1400px;
+		border: 3px solid greenyellow;
+		margin-bottom: 50px;
+	}
+
+	.conteudo {
+		margin-top: 50px;
+		overflow: hidden;
+	}
+
+	.card {
+		border: 4px solid #55aaa7;
+		border-radius: 25px;
+		height: 270px;
+		margin-top: 100px;
+		margin-left: 75px;
+		margin-right: 75px;
+		width: 35%;
+	}
+
+	.cardIcone {
+		background-color: #55aaa7;
+		border-radius: 50%;
+		width: 95px;
+		height: 95px;
+		margin-top: -50px;
+		margin-left: -50px;
+		position: relative;
+	}
+
+	.cardIcone img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.cardDivTitulo {
+		margin-top: -40px;
+	}
+
+	.cardDivParagrafo {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid red;
+		height: 204px;
+	}
+
+	.cardParagrafo {
+		font-size: 28px;
+		text-align: center;
+		margin: auto;
+		padding: 25px;
+	}
+}

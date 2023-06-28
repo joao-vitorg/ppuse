@@ -5,7 +5,7 @@ export default function Chamada() {
 	return (
 		<section className={styles.container}>
 			<div className={styles.header}>
-				<img src="public/logo_chamada.png" alt="Logomarca do site PPUSE" />
+				<img src="/logo_chamada.png" alt="Logomarca do site PPUSE" />
 				<span>PPUSE</span>
 				<div className={styles.line}></div>
 			</div>

@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.form {
+    border: 1px solid red;
+}
+
+.divButton {
+    border: 1px solid gold;
+    margin: auto;
+    width: 180px;
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .container {
+        display: block;
+        flex-direction: row;
+        margin: auto;
+        width: 1400px;
+        border: 3px solid greenyellow;
+    }
+
+    .form {
+        display: block;
+        margin: auto;
+        border: 1px solid red;
+        width: 650px;
+    }
+
+}
