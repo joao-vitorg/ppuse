@@ -1,4 +1,4 @@
-import { AppBar, Typography, Toolbar } from "@mui/material";
+import { AppBar, Toolbar, Typography } from "@mui/material";
 
 export default function Header() {
 	return (
@@ -6,7 +6,7 @@ export default function Header() {
 			<AppBar position={"fixed"} component="nav">
 				<Toolbar>
 					<Typography variant="h6" color="inherit" component="div">
-						Photos
+						PPuse
 					</Typography>
 				</Toolbar>
 			</AppBar>

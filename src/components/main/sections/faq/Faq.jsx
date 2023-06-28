@@ -1,6 +1,6 @@
 import TituloSubtitulo from "../../common/TituloSubtitulo.jsx";
 import { useEffect, useState } from "react";
-import { Accordion, AccordionDetails, AccordionSummary, Box, Typography } from "@mui/material";
+import { Accordion, AccordionDetails, AccordionSummary, Box, Container, Typography } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { styled } from "@mui/material/styles";
 
@@ -23,7 +23,7 @@ export default function Faq() {
 	}));
 
 	return (
-		<section>
+		<Container>
 			<TituloSubtitulo sectionName={"faqs"} />
 			<Box>
 				{faqs.map(({ pergunta, resposta }, index) => (
@@ -44,6 +44,6 @@ export default function Faq() {
 					</Accordion>
 				))}
 			</Box>
-		</section>
+		</Container>
 	);
 }

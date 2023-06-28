@@ -1,9 +1,9 @@
 import TituloSubtitulo from "../../common/TituloSubtitulo.jsx";
-import { Box, Stack, TextField } from "@mui/material";
+import { Container, Stack, TextField } from "@mui/material";
 
 export default function Contato() {
 	return (
-		<section>
+		<Container>
 			<TituloSubtitulo sectionName={"contato"} />
 			<Stack display={"flex"} gap={"1rem"} marginTop={"1rem"} sx>
 				<TextField label="Nome" variant="outlined" />
@@ -11,6 +11,6 @@ export default function Contato() {
 				<TextField label="Email" variant="outlined" />
 				<TextField label="Mensagem" multiline rows={3} />
 			</Stack>
-		</section>
+		</Container>
 	);
 }
