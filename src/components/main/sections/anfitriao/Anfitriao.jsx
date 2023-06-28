@@ -5,6 +5,7 @@ import styles from "./Anfitriao.module.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import "./styles.css";
 
 const desktopAnfitriao = [
 	{
@@ -181,7 +182,7 @@ function Item() {
 
 export default function Anfitriao() {
 	return (
-		<section>
+		<section className={"anfitriao"}>
 			<div className={styles.container}>
 				<TituloSubtitulo sectionName={"anfitriao"} />
 				<div className={styles.conteudo}>

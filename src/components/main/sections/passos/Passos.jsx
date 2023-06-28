@@ -5,7 +5,7 @@ import styles from "./Passos.module.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-// import "./styles.css";
+import "./styles.css";
 
 const desktopPassos = [
 	{
@@ -210,7 +210,7 @@ function Item() {
 
 export default function Passos() {
 	return (
-		<section>
+		<section className={"passos"}>
 			<div className={styles.container}>
 				<TituloSubtitulo sectionName={"passos"} />
 				<div className={styles.conteudo}>
