@@ -115,7 +115,7 @@ export default function Contato() {
 	};
 
 	return (
-		<section>
+		<section id={"contato"}>
 			<span>{showAlert && <ActionAlertSuccess />}</span>
 			<div className={styles.container}>
 				<TituloSubtitulo sectionName={"contato"} />

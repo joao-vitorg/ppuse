@@ -1,0 +1,14 @@
+.links {
+	display: flex;
+	gap: 20px;
+	padding: 0 0 0 40px;
+	/*margin: auto;*/
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.links a {
+	color: white;
+}

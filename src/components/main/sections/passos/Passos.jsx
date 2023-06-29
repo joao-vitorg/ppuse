@@ -30,7 +30,7 @@ const desktopPassos = [
 
 		card2: {
 			title: "3º passo",
-			description: "Na pagina inicial do ppuse, navegue e descubra o consultório ideal para você",
+			description: "Selecione a data e horário se necessário e clique em reservar",
 			image: "passo3.png",
 		},
 	},
@@ -38,26 +38,27 @@ const desktopPassos = [
 	{
 		card1: {
 			title: "3º passo",
-			description: "Na pagina inicial do ppuse, navegue e descubra o consultório ideal para você",
-			image: "passo3.png",
+			description: "Selecione a data e horário se necessário e clique em reservar",
+			image: "passo3.png,
 		},
 		card2: {
 			title: "4º passo",
-			description: "Na pagina inicial do ppuse, navegue e descubra o consultório ideal para você",
-			image: "passo4.png",
+			description: "Preencha os detalhes do seu consulturio e finalize o processo",
+			image: "passo4.png"
 		},
 	},
 
 	{
 		card1: {
 			title: "4º passo",
-			description: "Na pagina inicial do ppuse, navegue e descubra o consultório ideal para você",
-			image: "passo4.png",
+			description: "Preencha os detalhes do seu consulturio e finalize o processo",
+			image: "passo4.png"
 		},
 		card2: {
 			title: "5º passo",
-			description: "Na pagina inicial do ppuse, navegue e descubra o consultório ideal para você",
-			image: "passo5.png",
+			description:
+				"Espere que o seu anfritrião te responda confirmando seu agendamento e passando os detalhes para acesso do consultorio",
+			image: "passo5.png"
 		},
 	},
 ];

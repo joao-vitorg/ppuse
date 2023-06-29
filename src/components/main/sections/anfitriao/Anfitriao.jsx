@@ -182,7 +182,7 @@ function Item() {
 
 export default function Anfitriao() {
 	return (
-		<section className={"anfitriao"}>
+		<section className={"anfitriao"} id={"anfitriao"}>
 			<div className={styles.container}>
 				<TituloSubtitulo sectionName={"anfitriao"} />
 				<div className={styles.conteudo}>

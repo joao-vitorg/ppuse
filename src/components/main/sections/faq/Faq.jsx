@@ -23,27 +23,29 @@ export default function Faq() {
 	}));
 
 	return (
-		<Container>
-			<TituloSubtitulo sectionName={"faqs"} />
-			<Box>
-				{faqs.map(({ pergunta, resposta }, index) => (
-					<Accordion
-						key={index}
-						expanded={expanded === index}
-						onChange={handleChange(index)}
-						sx={{
-							marginBottom: "8px",
-						}}
-					>
-						<AccordionSummary expandIcon={<Icon />}>
-							<Typography sx={{ fontWeight: "bold" }}>{pergunta}</Typography>
-						</AccordionSummary>
-						<AccordionDetails>
-							<Typography sx={{ fontWeight: "lighter", wordBreak: "break-word" }}>{resposta}</Typography>
-						</AccordionDetails>
-					</Accordion>
-				))}
-			</Box>
+		<Container id={"faq"}>
+			<div style={{ paddingBottom: "40px" }}>
+				<TituloSubtitulo sectionName={"faqs"} />
+				<Box>
+					{faqs.map(({ pergunta, resposta }, index) => (
+						<Accordion
+							key={index}
+							expanded={expanded === index}
+							onChange={handleChange(index)}
+							sx={{
+								marginBottom: "8px",
+							}}
+						>
+							<AccordionSummary expandIcon={<Icon />}>
+								<Typography sx={{ fontWeight: "bold" }}>{pergunta}</Typography>
+							</AccordionSummary>
+							<AccordionDetails>
+								<Typography sx={{ fontWeight: "lighter", wordBreak: "break-word" }}>{resposta}</Typography>
+							</AccordionDetails>
+						</Accordion>
+					))}
+				</Box>
+			</div>
 		</Container>
 	);
 }

@@ -2,12 +2,12 @@
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	padding-top: 30px;
 }
 
 .conteudo {
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 	display: flex;
-	border: 1px solid rebeccapurple;
 	justify-content: center;
 	overflow: visible;
 }
@@ -70,7 +70,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border: 1px solid red;
 	height: 204px;
 }
 
@@ -86,7 +85,7 @@
 }
 
 .divButton {
-	margin-top: 20px;
+	margin-top: 50px;
 	text-align: center;
 }
 
@@ -119,12 +118,11 @@
 		flex-direction: row;
 		margin: auto;
 		width: 1400px;
-		border: 3px solid greenyellow;
 		margin-bottom: 50px;
 	}
 
 	.conteudo {
-		margin-top: 50px;
+		/*margin-top: 50px;*/
 		overflow: hidden;
 	}
 
@@ -163,12 +161,11 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		border: 1px solid red;
 		height: 204px;
 	}
 
 	.cardParagrafo {
-		font-size: 28px;
+		font-size: 23px;
 		text-align: center;
 		margin: auto;
 		padding: 25px;
