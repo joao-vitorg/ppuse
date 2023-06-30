@@ -13,9 +13,9 @@ const theme = createTheme({
 			styleOverrides: `
 				@font-face {
 				  font-family: "Circular";
-				  src: url("./fonts/lineto-circular-pro-book.eot?#iefix") format("embedded-opentype"),
-				       url("./fonts/lineto-circular-pro-book.woff") format("woff"),
-				       url("./fonts/lineto-circular-pro-book.ttf") format("truetype"),
+				  src: url("/fonts/lineto-circular-pro-book.eot?#iefix") format("embedded-opentype"),
+				       url("/fonts/lineto-circular-pro-book.woff") format("woff"),
+				       url("/fonts/lineto-circular-pro-book.ttf") format("truetype"),
 				}
       `,
 		},

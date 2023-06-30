@@ -6,21 +6,18 @@ import Anfitriao from "./sections/anfitriao/Anfitriao.jsx";
 import Depoimentos from "./sections/depoimentos/Depoimentos.jsx";
 import Faq from "./sections/faq/Faq.jsx";
 import Contato from "./sections/contato/Contato.jsx";
-import { Container } from "@mui/material";
 
 export default function Main() {
 	return (
 		<main style={{ marginTop: "60px" }}>
-			<Container>
-				<Chamada />
-				<Conheca />
-				<Passos />
-				<Consultorios />
-				<Anfitriao />
-				<Depoimentos />
-				<Faq />
-				<Contato />
-			</Container>
+			<Chamada />
+			<Conheca />
+			<Passos />
+			<Consultorios />
+			<Anfitriao />
+			<Depoimentos />
+			<Faq />
+			<Contato />
 		</main>
 	);
 }

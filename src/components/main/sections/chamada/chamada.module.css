@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@400;500;700&family=Anton&display=swap");
+
+.container {
+	font-family: aleo-regular, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: whitesmoke;
+	min-height: 65vh;
+	text-align: center;
+}
+
+.header {
+	font-size: medium;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.header span {
+	font-size: xx-large;
+	color: #37393f;
+}
+
+.header img {
+	width: 90px;
+	height: 90px;
+	margin-bottom: 10%;
+}
+
+.line {
+	width: 250px;
+	height: 2px;
+	background-color: #d4676d;
+	margin-top: 10px;
+}
+
+.chamada {
+	font-family: circular, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: whitesmoke;
+	/*height: 100vh;*/
+}
+
+.chamada h1 {
+	font-weight: bold;
+	font-size: xxx-large;
+}
+
+.chamada h2 {
+	font-weight: lighter;
+	font-size: large;
+	margin-top: -20px;
+	margin-bottom: 25px;
+}
+
+.botaoChamada button {
+	background-color: #d4676d;
+	border: 0px;
+	border-radius: 10px;
+	width: 180px;
+	height: 50px;
+	transition: 0.3s;
+}
+
+.botaoChamada button:hover {
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.botaoChamada a {
+	font-size: 22px;
+	font-weight: lighter;
+}
+
+.botaoChamada a:link,
+.botaoChamada a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+@media only screen and (max-width: 600px) {
+	.container {
+		padding: 10px;
+	}
+
+	.header img {
+		width: 70px; /* Reduzindo o tamanho da imagem para dispositivos móveis */
+		height: 70px;
+	}
+
+	.line {
+		width: 80%; /* Ajustando a largura da linha para dispositivos móveis */
+	}
+}

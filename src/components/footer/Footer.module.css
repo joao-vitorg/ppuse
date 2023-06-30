@@ -1,0 +1,104 @@
+.container {
+	background-color: black;
+	margin-top: 20px;
+	height: 55px;
+	padding: 0 190px;
+}
+
+.conteudo {
+	display: flex;
+	height: 50px;
+	justify-content: space-between;
+}
+
+.a {
+	display: flex;
+	align-items: center;
+}
+
+.logoPPuse {
+	object-fit: contain;
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+}
+
+.ppuseInc {
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+/*
+.ppuseInc {
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid greenyellow;
+}
+
+
+*/
+
+.icone {
+	background-color: white;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 5px;
+}
+
+.iconeInstagram:link,
+.iconeInstagram:visited {
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 27px;
+}
+
+.iconeInstagram {
+	background-image: url("../../../icones/footer/instagram128.png");
+}
+
+.iconeInstagram:hover {
+	background-image: url("../../../icones/footer/instagramcor128.png");
+}
+
+@media only screen and (min-width: 1000px) {
+	.conteudo {
+		width: 100%;
+		margin: auto;
+	}
+
+	.ppuseInc {
+		font-size: 25px;
+		margin: 15px;
+	}
+
+	.logoPPuse {
+		margin: 0px;
+	}
+
+	.icone {
+		margin-right: 0px;
+	}
+}
+
+/*
+.instagram img:hover {
+    background-image: url('../../../icones/footer/instagramcor128.png');
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+
+*/
