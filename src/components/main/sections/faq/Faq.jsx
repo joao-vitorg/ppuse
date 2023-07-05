@@ -37,11 +37,15 @@ export default function Faq() {
 							}}
 						>
 							<AccordionSummary expandIcon={<Icon />}>
-								<Typography sx={{ fontWeight: "bold" }}>{pergunta}</Typography>
+								{
+									(expanded === index) ? 
+									<Typography sx={{ fontWeight: "bold", color: "#d33941" }}>{pergunta}</Typography>
+									: <Typography sx={{ fontWeight: "bold" }}>{pergunta}</Typography>
+								}
 							</AccordionSummary>
-							<AccordionDetails>
-								<Typography sx={{ fontWeight: "lighter", wordBreak: "break-word" }}>{resposta}</Typography>
-							</AccordionDetails>
+							<AccordionSummary>
+								<Typography sx={{ wordBreak: "break-word" }}>{resposta}</Typography>
+							</AccordionSummary>
 						</Accordion>
 					))}
 				</Box>
