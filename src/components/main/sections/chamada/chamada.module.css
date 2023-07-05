@@ -38,7 +38,7 @@
 }
 
 .chamada {
-	font-family: circular, sans-serif;
+	font-family: circular;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
