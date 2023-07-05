@@ -32,8 +32,8 @@
 
 .line {
 	width: 250px;
-	height: 2px;
-	background-color: #d4676d;
+	/* height: 2px; */
+	border-top: 2px solid #d4676d;
 	margin-top: 10px;
 }
 
