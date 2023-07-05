@@ -9,6 +9,16 @@
 	border-top: 1px solid #0d0d0d;
 }
 
+.depoimentoSwipperContainer {
+	justify-content: center;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	overflow: visible;
+}
+
 .depoimentosSection {
 	background-color: #55aaa7bd;
 	height: 100%;
@@ -40,14 +50,20 @@
 	display: flex;
 }
 
+.cardDepoimento {
+	margin-left: 33px;
+	margin-right: 33px;
+}
+
 .cardContainer {
 	display: flex;
 	flex-direction: column;
-	padding: 0px 8px 14px;
+	padding: 0px 8px 0px;
 }
 
 .nome {
-	padding: 5px;
+	font-size: 30px;
+	height: 0px;
 }
 
 .textoDepoimento {
@@ -56,27 +72,36 @@
 	border-radius: 40px;
 	padding: 15px 35px;
 	font-style: oblique;
-	font-size: 17px;
+	font-size: 18px;
 	box-shadow: 9px 9px 5px rgba(50, 50, 50, 0.77);
 }
 
-@media screen and (max-width: 849px) {
+@media screen and (max-width: 1010px) {
 	.cardDepoimento {
 		flex-direction: column;
+		margin-left: 75px;
+		margin-right: 75px;
 	}
 
 	.imageContainer {
 		justify-content: center;
 		flex-direction: row;
+		margin-bottom: 10px;
 	}
 
 	.textoDepoimento {
 		margin-right: 10px;
 		margin-left: 10px;
+		margin-top: 20px;
 		max-height: 380px;
 		min-height: 250px;
 		min-width: 250px;
+		font-size: 17px;
 		box-shadow: 5px 5px 1px rgba(50, 50, 50, 0.77);
+	}
+
+	.nome {
+		margin-top: 10px;
 	}
 }
 
@@ -84,9 +109,11 @@
 	width: 0;
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 1010px) {
 	.cardDepoimento {
 		flex-direction: row;
+		margin-left: 75px;
+		margin-right: 75px;
 	}
 
 	.imageContainer {
@@ -106,13 +133,16 @@
 		margin-right: 20px;
 		max-height: 290px;
 		min-width: 500px;
+		font-size: 17px;
 		text-align: left;
 	}
 }
 
-@media screen and (min-width: 1180px) {
+@media screen and (min-width: 1360px) {
 	.cardDepoimento {
 		flex-direction: row;
+		margin-left: 33px;
+		margin-right: 33px;
 	}
 
 	.imageContainer {
@@ -132,5 +162,6 @@
 		max-height: 185px;
 		width: 800px;
 		text-align: left;
+		font-size: 18px;
 	}
 }

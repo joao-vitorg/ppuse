@@ -1,6 +1,6 @@
 import titulosDescricoes from "../../../js/titulosDescricoesSecoes.js";
 import { Container, Typography } from "@mui/material";
-import styles from "./TituloSubtitulo.css";
+import styles from "./TituloSubtitulo.module.css";
 
 export default function TituloSubtitulo({ sectionName }) {
 	return (

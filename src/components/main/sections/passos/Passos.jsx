@@ -39,12 +39,12 @@ const desktopPassos = [
 		card1: {
 			title: "3º passo",
 			description: "Selecione a data e horário se necessário e clique em reservar",
-			image: "passo3.png,
+			image: "passo3.png",
 		},
 		card2: {
 			title: "4º passo",
 			description: "Preencha os detalhes do seu consulturio e finalize o processo",
-			image: "passo4.png"
+			image: "passo4.png",
 		},
 	},
 
@@ -52,13 +52,13 @@ const desktopPassos = [
 		card1: {
 			title: "4º passo",
 			description: "Preencha os detalhes do seu consulturio e finalize o processo",
-			image: "passo4.png"
+			image: "passo4.png",
 		},
 		card2: {
 			title: "5º passo",
 			description:
 				"Espere que o seu anfritrião te responda confirmando seu agendamento e passando os detalhes para acesso do consultorio",
-			image: "passo5.png"
+			image: "passo5.png",
 		},
 	},
 ];

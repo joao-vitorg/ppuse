@@ -9,7 +9,7 @@ export default function App() {
 		<Fragment>
 			<Header />
 			<Main />
-			<Footer />
+			{/*<Footer />*/}
 			<Whatsapp />
 		</Fragment>
 	);
