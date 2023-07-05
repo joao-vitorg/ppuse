@@ -3,15 +3,13 @@
 	margin: 0.5em auto;
 	min-width: 80%;
 	max-width: 80%;
-	border-top: 2px solid #d4676d;
+	border: 1px solid #d4676d;
 }
 
 .tituloSubtituloSeparadorDepoimento {
-	display: block;
-	margin: 0.5em auto;
 	min-width: 50%;
 	max-width: 50%;
-	border-top: 2px solid #d4676d;
+	border: 1px solid #d4676d;
 }
 
 .tituloSubtituloSeparadorFaqs {
@@ -19,7 +17,7 @@
 	margin: 0.5em auto;
 	min-width: 30%;
 	max-width: 30%;
-	border-top: 2px solid #d4676d;
+	border: 1px solid #d4676d;
 }
 
 .tituloSubtituloSeparadorConsultorios {
@@ -27,7 +25,7 @@
 	margin: 0.5em auto;
 	min-width: 60%;
 	max-width: 60%;
-	border-top: 2px solid #d4676d;
+	border: 1px solid #d4676d;
 }
 
 .tituloSubtituloSeparadorAnfitriao {
@@ -35,7 +33,7 @@
 	margin: 0.5em auto;
 	min-width: 60%;
 	max-width: 60%;
-	border-top: 2px solid #d4676d;
+	border: 1px solid #d4676d;
 }
 
 .tituloSubtituloSeparadorContato {
@@ -43,7 +41,7 @@
 	margin: 0.5em auto;
 	min-width: 60%;
 	max-width: 60%;
-	border-top: 2px solid #d4676d;
+	border: 1px solid #d4676d;
 }
 
 @media screen and (max-width: 900px) {
