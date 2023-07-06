@@ -15,11 +15,18 @@ export default function Chamada() {
 				<h2>
 					É um dentista formado e ainda não tem seu próprio consultório? O que você acha de alugar um até ter o seu?
 				</h2>
-				<button className={styles.botaoChamada}>
-					<a href="https://ppuse.com.br/" className={styles.button} target="_blank">
-						Quero alugar
-					</a>
-				</button>
+				{/*<button className={styles.botaoChamada}>*/}
+				{/*<a href="https://ppuse.com.br/" className={styles.button} target="_blank">*/}
+				{/*	Quero alugar*/}
+				{/*</a>*/}
+				<div className={styles.divButtonCadastre}>
+					<button type="button" className={styles.cadastreButton}>
+						<a href="https://ppuse.com.br/login" target="_blank" rel="" className={styles.cadastre}>
+							Quero alugar
+						</a>
+					</button>
+				</div>
+				{/*</button>*/}
 			</div>
 		</section>
 	);

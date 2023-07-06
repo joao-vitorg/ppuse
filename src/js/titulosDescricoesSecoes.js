@@ -9,7 +9,7 @@ const titulosDescricoes = {
 		descricao: "Alugar um consultorio odontologico pode ser mais viavel do que parece ",
 	},
 	passos: {
-		titulo: "4 passos para alugar um consultorio",
+		titulo: "5 passos para alugar um consultorio",
 		descricao: "Siga os passos abaixo para alugar um consultório pronto para uso e se torne nosso convidado.",
 	},
 	consultorios: {

@@ -5,11 +5,7 @@ import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import styles from './Alert.module.css';
 
-
-
-
-export default function ActionAlertSuccess() {
-    
+export default function ActionAlertError(){
     const [open, setOpen] = React.useState(true);
 
     const handleClose = () => {
@@ -27,14 +23,14 @@ export default function ActionAlertSuccess() {
     }, []);
 
     */
-    
+
     return (
         <Stack  spacing={0}  className={styles.stack} >
         {open && (
             <Alert
-                severity="success"
+                severity="error"
                 variant="filled"
-                sx={{backgroundColor:'#55AAA7', color:'white'}}
+                sx={{backgroundColor:'#D4676D', color:'white'}}
                 action={
                     <IconButton
                         aria-label="close"
@@ -42,7 +38,7 @@ export default function ActionAlertSuccess() {
                         size="small"
                         onClick={handleClose}
                         sx={{
-                            width: '30px', height: '30px',backgroundColor:'#55AAA7'
+                            width: '30px', height: '30px',backgroundColor:'#D4676D'
                         }}
 
                     >
@@ -50,40 +46,10 @@ export default function ActionAlertSuccess() {
                     </IconButton>
                 }
             >
-                Formulário enviada com sucesso!
+                Ocorreu um erro ao enviar o formulário
             </Alert>
         )}
     </Stack>
 
     );
 }
-
-
-/*
-
-<Stack sx={{ width: '23%' }} spacing={0}>
-            {open && (
-                <Alert
-                    severity="success"
-                    action={
-                        <IconButton
-                            aria-label="close"
-                            color="inherit"
-                            size="small"
-                            onClick={handleClose}
-                            sx={{
-                                width: '30px', height: '30px'
-
-                            }}
-
-                        >
-                            <CloseIcon fontSize="inherit" />
-                        </IconButton>
-                    }
-                >
-                    This is a success alert — check it out!
-                </Alert>
-            )}
-        </Stack>
-
-*/
