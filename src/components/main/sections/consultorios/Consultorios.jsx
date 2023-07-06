@@ -27,57 +27,57 @@ export default function Consultorios() {
 					navigation={true}
 					modules={[Pagination, Navigation]}
 				>
-					<SwiperSlide>
-						<div className={styles.container}>
-							<div className={styles.wrapper}>
-								<img
-									src={"../../../../consultorios/primeiro/1.jpg"}
-									alt={"a"}
-									className={styles.img}
-									onClick={() => setCurImg1("../../../../consultorios/primeiro/1.jpg")}
-									style={{ cursor: "pointer" }}
-								/>
-								<img
-									src={"../../../../consultorios/primeiro/2.jpg"}
-									alt={"a"}
-									className={styles.img}
-									onClick={() => setCurImg1("../../../../consultorios/primeiro/2.jpg")}
-									style={{ cursor: "pointer" }}
-								/>
-								<img
-									src={"../../../../consultorios/primeiro/3.jpg"}
-									alt={"a"}
-									className={styles.img}
-									onClick={() => setCurImg1("../../../../consultorios/primeiro/3.jpg")}
-									style={{ cursor: "pointer" }}
-								/>
-								<img
-									src={"../../../../consultorios/primeiro/4.jpg"}
-									alt={"a"}
-									className={styles.img}
-									onClick={() => setCurImg1("../../../../consultorios/primeiro/4.jpg")}
-									style={{ cursor: "pointer" }}
-								/>
-								<img
-									src={"../../../../consultorios/primeiro/5.jpg"}
-									alt={"a"}
-									className={styles.img}
-									onClick={() => setCurImg1("../../../../consultorios/primeiro/5.jpg")}
-									style={{ cursor: "pointer" }}
-								/>
-								<img
-									src={"../../../../consultorios/primeiro/6.jpg"}
-									alt={"a"}
-									className={styles.img}
-									onClick={() => setCurImg1("../../../../consultorios/primeiro/6.jpg")}
-									style={{ cursor: "pointer" }}
-								/>
-							</div>
-							<div className={styles.wrapperMain}>
-								<img src={curImg1} alt={"a"} className={styles.imgMain} />
-							</div>
-						</div>
-					</SwiperSlide>
+					{/*<SwiperSlide>*/}
+					{/*	<div className={styles.container}>*/}
+					{/*		<div className={styles.wrapper}>*/}
+					{/*			<img*/}
+					{/*				src={"../../../../consultorios/primeiro/1.jpg"}*/}
+					{/*				alt={"a"}*/}
+					{/*				className={styles.img}*/}
+					{/*				onClick={() => setCurImg1("../../../../consultorios/primeiro/1.jpg")}*/}
+					{/*				style={{ cursor: "pointer" }}*/}
+					{/*			/>*/}
+					{/*			<img*/}
+					{/*				src={"../../../../consultorios/primeiro/2.jpg"}*/}
+					{/*				alt={"a"}*/}
+					{/*				className={styles.img}*/}
+					{/*				onClick={() => setCurImg1("../../../../consultorios/primeiro/2.jpg")}*/}
+					{/*				style={{ cursor: "pointer" }}*/}
+					{/*			/>*/}
+					{/*			<img*/}
+					{/*				src={"../../../../consultorios/primeiro/3.jpg"}*/}
+					{/*				alt={"a"}*/}
+					{/*				className={styles.img}*/}
+					{/*				onClick={() => setCurImg1("../../../../consultorios/primeiro/3.jpg")}*/}
+					{/*				style={{ cursor: "pointer" }}*/}
+					{/*			/>*/}
+					{/*			<img*/}
+					{/*				src={"../../../../consultorios/primeiro/4.jpg"}*/}
+					{/*				alt={"a"}*/}
+					{/*				className={styles.img}*/}
+					{/*				onClick={() => setCurImg1("../../../../consultorios/primeiro/4.jpg")}*/}
+					{/*				style={{ cursor: "pointer" }}*/}
+					{/*			/>*/}
+					{/*			<img*/}
+					{/*				src={"../../../../consultorios/primeiro/5.jpg"}*/}
+					{/*				alt={"a"}*/}
+					{/*				className={styles.img}*/}
+					{/*				onClick={() => setCurImg1("../../../../consultorios/primeiro/5.jpg")}*/}
+					{/*				style={{ cursor: "pointer" }}*/}
+					{/*			/>*/}
+					{/*			<img*/}
+					{/*				src={"../../../../consultorios/primeiro/6.jpg"}*/}
+					{/*				alt={"a"}*/}
+					{/*				className={styles.img}*/}
+					{/*				onClick={() => setCurImg1("../../../../consultorios/primeiro/6.jpg")}*/}
+					{/*				style={{ cursor: "pointer" }}*/}
+					{/*			/>*/}
+					{/*		</div>*/}
+					{/*		<div className={styles.wrapperMain}>*/}
+					{/*			<img src={curImg1} alt={"a"} className={styles.imgMain} />*/}
+					{/*		</div>*/}
+					{/*	</div>*/}
+					{/*</SwiperSlide>*/}
 					<SwiperSlide>
 						<div className={styles.container}>
 							<div className={styles.wrapper}>
@@ -111,7 +111,9 @@ export default function Consultorios() {
 								/>
 							</div>
 							<div className={styles.wrapperMain}>
-								<img src={curImg2} alt={"a"} className={styles.imgMain} />
+								<a href={"https://ppuse.com.br/items/57"} target={"__blanck"}>
+									<img src={curImg2} alt={"a"} className={styles.imgMain} />
+								</a>
 							</div>
 						</div>
 					</SwiperSlide>
@@ -155,7 +157,9 @@ export default function Consultorios() {
 								/>
 							</div>
 							<div className={styles.wrapperMain}>
-								<img src={curImg3} alt={"a"} className={styles.imgMain} />
+								<a href={"https://ppuse.com.br/items/55"} target={"__blanck"}>
+									<img src={curImg3} alt={"a"} className={styles.imgMain} />
+								</a>
 							</div>
 						</div>
 					</SwiperSlide>
@@ -185,7 +189,9 @@ export default function Consultorios() {
 								/>
 							</div>
 							<div className={styles.wrapperMain}>
-								<img src={curImg4} alt={"a"} className={styles.imgMain} />
+								<a href={"https://ppuse.com.br/items/59"} target={"__blanck"}>
+									<img src={curImg4} alt={"a"} className={styles.imgMain} />
+								</a>
 							</div>
 						</div>
 					</SwiperSlide>
