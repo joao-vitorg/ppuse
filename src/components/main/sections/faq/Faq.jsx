@@ -13,7 +13,7 @@ export default function Faq() {
 	};
 
 	useEffect(() => {
-		fetch("https://joaopedrocardoso.github.io/faqs-ppuse/faqs.json")
+		fetch("https://conheca.ppuse.com.br/faqs.json")
 			.then((file) => file.json())
 			.then((conteudo) => setFaqs(conteudo.faqs));
 	}, []);

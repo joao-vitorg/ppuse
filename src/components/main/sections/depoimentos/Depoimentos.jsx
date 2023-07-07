@@ -19,7 +19,7 @@ export default function Depoimentos() {
 	]);
 
 	useEffect(() => {
-		fetch("https://joaopedrocardoso.github.io/faqs-ppuse/depoimentos.json")
+		fetch("https://conheca.ppuse.com.br/depoimentos.json")
 			.then((file) => file.json())
 			.then((conteudo) => setDep(conteudo.depoimentos));
 	}, []);
@@ -62,7 +62,7 @@ export default function Depoimentos() {
 									<div className={styles.imageContainer}>
 										<div className={styles.depoimentoImage}>
 											<img
-												src={"/src/components/main/sections/depoimentos/img/" + depoimento.img}
+												src={"../../../../depoimentos/" + depoimento.img}
 												className={styles.depoimentoImg}
 											/>
 										</div>
