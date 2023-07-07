@@ -1,6 +1,6 @@
 import TituloSubtitulo from "../../common/TituloSubtitulo.jsx";
 import { useEffect, useState } from "react";
-import { Accordion, AccordionDetails, AccordionSummary, Box, Container, Typography } from "@mui/material";
+import { Accordion, AccordionSummary, Box, Container, Typography } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { styled } from "@mui/material/styles";
 
@@ -24,9 +24,9 @@ export default function Faq() {
 
 	return (
 		<Container id={"faq"}>
-			<div style={{ paddingBottom: "40px" }}>
+			<div style={{ paddingBottom: "50px",  paddingTop: "50px" }}>
 				<TituloSubtitulo sectionName={"faqs"} />
-				<Box>
+				<Box style={{ paddingTop: "60px" }}>
 					{faqs.map(({ pergunta, resposta }, index) => (
 						<Accordion
 							key={index}
@@ -39,12 +39,12 @@ export default function Faq() {
 							<AccordionSummary expandIcon={<Icon />}>
 								{
 									(expanded === index) ? 
-									<Typography sx={{ fontWeight: "bold", color: "#d33941" }}>{pergunta}</Typography>
-									: <Typography sx={{ fontWeight: "bold" }}>{pergunta}</Typography>
+									<Typography sx={{ fontSize: "19px", fontWeight: "bold", color: "#d33941" }}>{pergunta}</Typography>
+									: <Typography sx={{ fontSize: "19px", fontWeight: "bold" }}>{pergunta}</Typography>
 								}
 							</AccordionSummary>
 							<AccordionSummary>
-								<Typography sx={{ wordBreak: "break-word" }}>{resposta}</Typography>
+								<Typography sx={{ fontSize: "18px",wordBreak: "break-word" }}>{resposta}</Typography>
 							</AccordionSummary>
 						</Accordion>
 					))}

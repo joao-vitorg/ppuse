@@ -25,10 +25,10 @@ export default function Depoimentos() {
 	}, []);
 
 	return (
-		<section className={styles.depoimentosSection} id={"depoimentos"}>
-			<div className={"depoimentos"}>
+		<section className={styles.depoimentosSection} id={"depoimentos"} style={{ paddingBottom: "40px"}}>
+			<div className={"depoimentos"}  style={{ paddingTop: "20px"}}>
 				<TituloSubtitulo sectionName={"depoimentos"} cssClass={styles.tituloSubtituloSeparadorDepoimentos} />
-				<div className={styles.depoimentoSwipperContainer}>
+				<div className={styles.depoimentoSwipperContainer} style={{ paddingTop: "20px"}}>
 					<Swiper
 						pagination={false}
 						navigation={true}
