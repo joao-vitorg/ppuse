@@ -1,0 +1,78 @@
+.tituloSubtituloSeparadorPassos {
+	display: block;
+	margin: 0.5em auto;
+	min-width: 80%;
+	max-width: 80%;
+	border: 1px solid #d4676d;
+}
+
+.tituloSubtituloSeparadorDepoimento {
+	min-width: 50%;
+	max-width: 50%;
+	border: 1px solid #d4676d;
+}
+
+.tituloSubtituloSeparadorFaqs {
+	display: block;
+	margin: 0.5em auto;
+	min-width: 30%;
+	max-width: 30%;
+	border: 1px solid #d4676d;
+}
+
+.tituloSubtituloSeparadorConsultorios {
+	display: block;
+	margin: 0.5em auto;
+	min-width: 60%;
+	max-width: 60%;
+	border: 1px solid #d4676d;
+}
+
+.tituloSubtituloSeparadorAnfitriao {
+	display: block;
+	margin: 0.5em auto;
+	min-width: 60%;
+	max-width: 60%;
+	border: 1px solid #d4676d;
+}
+
+.tituloSubtituloSeparadorContato {
+	display: block;
+	margin: 0.5em auto;
+	min-width: 60%;
+	max-width: 60%;
+	border: 1px solid #d4676d;
+}
+
+@media screen and (max-width: 900px) {
+
+	.tituloSubtituloSeparadorPassos {
+		max-width: 100%;
+	}
+	
+	.tituloSubtituloSeparadorDepoimento {
+
+		max-width: 100%;
+	}
+	
+	.tituloSubtituloSeparadorFaqs {
+
+		max-width: 100%;
+	}
+	
+	.tituloSubtituloSeparadorConsultorios {
+
+		max-width: 100%;
+	}
+	
+	.tituloSubtituloSeparadorAnfitriao {
+
+		max-width: 100%;
+	}
+	
+	.tituloSubtituloSeparadorContato {
+
+		max-width: 100%;
+	}
+
+}

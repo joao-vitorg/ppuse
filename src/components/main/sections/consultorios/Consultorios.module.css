@@ -6,9 +6,12 @@
 .container {
 	display: flex;
 	justify-content: center;
-	height: 500px;
+	max-height: 500px;
 	gap: 10px;
-	margin: 30px 0 40px 0;
+	margin: 0 70px 40px 70px;
+	padding: 20px;
+	border-radius: 10px;
+	background: white;
 }
 
 .wrapper {
@@ -16,8 +19,10 @@
 	flex-direction: column;
 	overflow-y: scroll;
 	overflow-x: hidden;
-	width: 20%;
+	width: 40%;
+	min-width: 50px;
 	gap: 10px;
+	padding-right: 10px;
 }
 
 .img {
@@ -26,10 +31,12 @@
 
 .wrapperMain {
 	height: 100%;
+	width: 100%;
 }
 
 .imgMain {
 	object-fit: contain;
+	max-height: 500px;
 	width: 100%;
 	height: 100%;
 }
