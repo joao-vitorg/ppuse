@@ -6,7 +6,7 @@ export default function Footer() {
 			<div className={styles.container}>
 				<div className={styles.conteudo}>
 					<div className={styles.a}>
-						<img src="../../../icones/footer/logo_ppuse.png" alt="" className={styles.logoPPuse}/>
+						<img src='../../../icones/footer/logo_ppuse.png' alt="" className={styles.logoPPuse}/>
 						<p className={styles.ppuseInc}>
 							PPUSE, INC.
 						</p>
@@ -20,26 +20,3 @@ export default function Footer() {
 	);
 }
 
-/*
-<div className={styles.container}>
-				<div className={styles.conteudo}>
-					<div>
-						<Typography variant="h6" className={styles.ppuseInc}>
-							PPUSE, INC.
-						</Typography>
-					</div>
-					<div className={styles.icone}>
-				<div>
-					<a href="https://www.instagram.com/" target="_blank" rel="" className={styles.iconeInstagram}></a>
-				</div>
-			</div>
-						</div>
-					</div>
-
-
-
-
-<img src="../../../icones/footer/instagram.png" alt="" />
-<img src="../../../icones/footer/instagram128.png" alt="" />
-
-*/
