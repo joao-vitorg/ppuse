@@ -1,76 +1,89 @@
 .container {
-	background-color: black;
-	height: 60px;
+    background-color: black;
+    height: 60px;
 }
 
+
 .conteudo {
-	display: flex;
-	height: 60px;
-	justify-content: space-between;
+    display: flex;   
+    height: 60px;
+    justify-content: space-between;    
 }
 
 .a {
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .logoPPuse {
-	object-fit: contain;
-	width: 40px;
-	height: 40px;
-	margin: 5px;
+    object-fit: contain;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
 }
 
+
 .ppuseInc {
-	color: white;
-	font-weight: bold;
-	font-size: 22px;
+    color: white;
+    font-weight: bold;   
+    font-size: 22px;    
 }
 
 .icone {
-	background-color: white;
-	border-radius: 50%;
-	width: 40px;
-	height: 40px;
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-right: 5px;
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;    
+    margin-top: auto;
+    margin-bottom: auto;  
+    margin-right: 5px;  
 }
+
+
 
 .iconeInstagram:link,
 .iconeInstagram:visited {
-	display: inline-block;
-	padding: 20px;
-	text-decoration: none;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 27px;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 27px;
 }
+
+
 
 .iconeInstagram {
-	background-image: url("../../../icones/footer/instagram.png");
+    background-image: url('../../../public/icones/footer/instagram.png');   
 }
+
 
 .iconeInstagram:hover {
-	background-image: url("../../../icones/footer/instagramcor.png");
+    background-image: url('../../../public/icones/footer/instagramcor.png');
 }
+
 
 @media only screen and (min-width: 730px) {
-	.conteudo {
-		width: 100%;
-		max-width: 91vw;
-		margin: auto;
-	}
-	.ppuseInc {
-		font-size: 25px;
-		margin: 15px;
-	}
+    .conteudo {  
+        width: 100%; /* Definindo a largura inicial como 100% */
+        max-width: 91vw; /* Definindo a largura máxima */
+        margin: auto;        
+    }
+    .ppuseInc {       
+        font-size: 25px;
+        margin: 15px;
+    }
 
-	.logoPPuse {
-		margin: 0px;
-	}
+    .logoPPuse {       
+        margin: 0px;
+    }
 
-	.icone {
-		margin-right: 0px;
-	}
+    .icone {       
+        margin-right: 0px;
+    }
+
 }
+
+
+
+

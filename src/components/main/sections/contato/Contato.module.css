@@ -3,13 +3,16 @@
     flex-direction: column;
     width: 100%;
     margin-top: 70px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;   
+}
+
+.form {
+    margin-top: 45px;
 }
 
 .divButton {    
     display: flex;
-    justify-content: center;
-
+    justify-content: center; 
 }
 
 .enviarButton {   
@@ -31,8 +34,10 @@
 
 @media only screen and (min-width: 1000px) {
     .form {
+        padding-top: 50px;
         display: block;
-        margin: auto;        
+        margin: auto;       
         width: 650px;
     }
+    
 }

@@ -24,7 +24,7 @@ export default function Faq() {
 
 	return (
 		<Container id={"faq"}>
-			<div style={{ paddingBottom: "50px",  paddingTop: "50px" }}>
+			<div style={{ paddingBottom: "30px",  paddingTop: "50px" }}>
 				<TituloSubtitulo sectionName={"faqs"} />
 				<Box style={{ paddingTop: "60px" }}>
 					{faqs.map(({ pergunta, resposta }, index) => (
