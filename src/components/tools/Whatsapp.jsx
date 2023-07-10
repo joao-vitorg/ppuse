@@ -5,7 +5,7 @@ export default function Whatsapp() {
 	return (
 		<div className="a">
 			<FloatingWhatsApp
-				phoneNumber={"+5534999999999"}
+				phoneNumber={"+5534991739286"}
 				accountName={"PPUSE"}
 				statusMessage={""}
 				chatMessage={"Olá, seja bem vindo ao PPUSE. Como posso ajudá-lo"}
