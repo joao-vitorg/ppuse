@@ -30,5 +30,6 @@
     "@vitejs/plugin-react": "^4.0.1",
     "prettier": "^2.8.8",
     "vite": "^4.3.9"
-  }
+  },
+  "homepage" : "https://landingpage.ppuse.com.br/"
 }

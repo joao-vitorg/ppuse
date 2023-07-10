@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .conteudo {
-    margin-top: 50px;
-    display: flex;    
+    margin-top: 60px;
+    display: flex;
     justify-content: center;
 }
 
@@ -16,7 +17,7 @@
     border: 4px solid #55AAA7;
     border-radius: 25px;
     height: 270px;
-    margin-top: 50px;  
+    margin-top: 50px;
     width: 70%;
 }
 
@@ -72,7 +73,7 @@
 .cardDivParagrafo {
     display: flex;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;
     height: 204px;
 }
 
@@ -85,7 +86,8 @@
 }
 
 .divButtonAlugar {
-    margin-top: 20px;
+    margin-top: 60px;    
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -93,8 +95,8 @@
     background-color: #D4676D;
     border: 0px;
     border-radius: 10px;
-    width: 180px;
-    height: 50px;
+    width: 200px;
+    height: 60px;
     transition: 0.3s;
 }
 
@@ -112,135 +114,77 @@
     color: white;
 }
 
-@media only screen and (max-width: 350px){
+@media only screen and (max-width: 350px) {
     .cardParagrafo {
-        font-size: 19px;        
-    }    
-    
-}
-
-@media only screen and (min-width: 530px)  and  (max-width: 729px){
-    .cardDivParagrafo { 
-        height: 202px;
-    }
-
-    .cardParagrafo {
-        font-size: 23px;        
-    }    
-    
-    
-    [id=card1] .iconeImg {
-        margin-left: 5px;
-    }
-
-    [id=card2] .iconeImg {
-        margin-top: 5px;
-    }
-
-    [id=card4] .iconeImg {
-        margin-top: -2px;
-    }
-
-    [id=card5] .iconeImg {
-        margin-left: 2px;
-    }
-}
-
-
-@media only screen and (min-width: 730px) {
-    .card { 
-        width: 62%;
-    } 
-
-    .cardIcone {      
-        width: 70px;
-        height: 70px;
-        margin-top: -30px;
-        margin-left: -30px;       
-    }
-
-    .cardDivParagrafo { 
-        height: 195px;
-    }
-
-    .cardParagrafo {
-        font-size: 19px;       
-    }
-
-    [id=card1] .iconeImg {
-        margin-left: 5px;
-    }
-
-    [id=card2] .iconeImg {
-        margin-top: 5px;
-    }
-
-    [id=card4] .iconeImg {
-        margin-top: -5px;
-    }
-
-    [id=card5] .iconeImg {
-        margin-left: 5px;
+        font-size: 19px;
     }
 
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1100px) {
-    .cardParagrafo {
-        font-size: 21px;
-    }  
-
-    .card { 
-        width: 60%;
-    } 
-    
-    .cardIcone {      
-        width: 90px;
-        height: 90px;
-        margin-top: -50px;
-        margin-left: -50px;       
-    }  
-
-    [id=card1] .iconeImg {
-        margin-left: 5px;
-    }
-
-    [id=card2] .iconeImg {
-        margin-top: 5px;
-    }
-
-    [id=card4] .iconeImg {
-        margin-top: -5px;
-    }
-
-    [id=card5] .iconeImg {
-        margin-left: 5px;
-    }
-
-    .cardDivParagrafo {        
-        height: 195px;
-    }
-}
-
-
-
-
-@media only screen and (min-width: 1101px) {
+@media only screen and (min-width: 530px) and (max-width: 729px) {
     .container {
         display: block;
         flex-direction: row;
-        margin: auto;       
-        margin-bottom: 50px;
-    }  
-
-    .cardIcone {      
-        width: 95px;
-        height: 95px;
-        margin-top: -50px;
-        margin-left: -50px;      
+        margin: auto;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 
-    
+    .conteudo {
+        margin-top: 90px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .cardParagrafo {
+        font-size: 23px;
+    }
+
+    .divButtonAlugar {
+        margin-top: 70px;    
+        margin-bottom: 10px;
+    }
+
+
+    .cadastreButton {
+        width: 300px;
+        height: 60px;
+    }
+
+    .cadastre {
+        font-size: 22px;
+    }
+}
+
+
+
+@media only screen and (min-width: 730px) {
+    .container {
+        display: block;
+        flex-direction: row;
+        margin: auto;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .conteudo {
+        margin-top: 90px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        width: 65%;
+    }
+
+    .cardIcone {
+        width: 60px;
+        height: 60px;
+        margin-top: -30px;
+        margin-left: -30px;
+    }
+
     [id=card1] .iconeImg {
         margin-left: 5px;
     }
@@ -258,14 +202,153 @@
     }
 
     .cardDivTitulo {
-        margin-top: -40px;
+        margin-top: -25px;
     }
 
-    .cardDivParagrafo {        
+    .cardDivParagrafo {
         height: 205px;
     }
 
     .cardParagrafo {
-        font-size: 23px;       
+        font-size: 18px;
     }
+
+    .cadastreButton {
+        width: 300px;
+        height: 60px;
+    }
+
+    .cadastre {
+        font-size: 22px;
+    }
+
+    .cardParagrafo {
+        font-size: 20px;
+    }
+
+    .divButtonAlugar {
+        margin-top: 70px;    
+        margin-bottom: 10px;
+    }
+
+    .cadastreButton {
+        width: 300px;
+        height: 60px;
+    }
+
+    .cadastre {
+        font-size: 22px;
+    }
+
+}
+
+
+@media only screen and (min-width: 807px) and (max-width: 1100px) {
+    .card {
+        width: 65%;
+        height: 300px;
+    }
+
+    .cardDivTitulo {
+        margin-top: -40px;
+    }
+
+    .cardIcone {
+        width: 80px;
+        height: 80px;
+        margin-top: -40px;
+        margin-left: -40px;
+    }
+
+    .cardDivParagrafo {
+        height: 240px;
+    }
+
+    .cardParagrafo {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1250px) {
+    .card {
+        width: 65%;
+        height: 300px;
+    }
+
+    .cardDivTitulo {
+        margin-top: -40px;
+    }
+
+    .cardIcone {
+        width: 80px;
+        height: 80px;
+        margin-top: -40px;
+        margin-left: -40px;
+    }
+
+    .cardDivParagrafo {
+        height: 245px;
+    }
+
+    .cardParagrafo {
+        font-size: 22px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1251px) and (max-width: 1400px) {
+    .card {
+        width: 70%;
+        height: 300px;
+    }
+
+    .cardDivTitulo {
+        margin-top: -40px;
+    }
+
+
+    .cardIcone {
+        width: 95px;
+        height: 95px;
+        margin-top: -50px;
+        margin-left: -50px;
+    }
+
+    .cardDivParagrafo {
+        height: 235px;
+    }
+
+    .cardParagrafo {
+        font-size: 25px;
+    }
+}
+
+
+@media only screen and (min-width: 1401px) {
+    .card {
+        width: 70%;
+        height: 300px;
+    }
+
+    .cardDivTitulo {
+        margin-top: -40px;
+    }
+
+
+    .cardIcone {
+        width: 95px;
+        height: 95px;
+        margin-top: -50px;
+        margin-left: -50px;
+    }
+
+    .cardDivParagrafo {
+        height: 235px;
+    }
+
+    .cardParagrafo {
+        font-size: 26px;
+    }
+
 }
