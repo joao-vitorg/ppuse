@@ -12,11 +12,7 @@ export default function Conheca() {
 				</div>
 
 			
-					<video
-						className={styles["video"]}
-						src="https://github.com/joao-vitorg/ppuse/raw/branch-aparicio/src/components/media/ppuse_institucional.mp4"
-						controls
-					/>
+				<video className={styles["video"]} src={"../../../../media/PPUSE.mp4"} controls />
 				</div>
 			
 		</section>
