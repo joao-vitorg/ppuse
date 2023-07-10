@@ -83,7 +83,8 @@
 
 
 .divButtonCadastre {
-    margin-top: 40px;
+    margin-top: 60px;    
+    margin-bottom: 70px;
     text-align: center;
 }
 
@@ -127,7 +128,7 @@
     }
 
     .conteudo {
-        margin-top: 60px;
+        margin-top: 90px;
         display: flex;        
         justify-content: center;
     }
@@ -135,6 +136,11 @@
 
     .cardParagrafo {
         font-size: 23px;
+    }
+
+    .divButtonCadastre {
+        margin-top: 70px;    
+        margin-bottom: 10px;
     }
 
     .cadastreButton {
@@ -159,7 +165,7 @@
     }
 
     .conteudo {
-        margin-top: 60px;
+        margin-top: 90px;
         display: flex;       
         justify-content: center;
     }
@@ -190,6 +196,12 @@
         height: 60px;
     }
 
+    .divButtonCadastre {
+        margin-top: 70px;    
+        margin-bottom: 10px;
+    }
+
+
     .cadastre {
         font-size: 22px;
     }
@@ -217,6 +229,11 @@
         height: 240px;
     }
 
+    .divButtonCadastre {
+        margin-top: 70px;    
+        margin-bottom: 10px;
+    }
+
     .cardParagrafo {
         font-size: 19px;       
     }  
@@ -239,6 +256,11 @@
         margin-left: -40px;
     }
 
+    .divButtonCadastre {
+        margin-top: 70px;    
+        margin-bottom: 10px;
+    }
+
     .cardDivParagrafo {              
         height: 245px;
     }
@@ -258,7 +280,11 @@
         margin-top: -40px;
     }
 
-  
+    .divButtonCadastre {
+        margin-top: 70px;    
+        margin-bottom: 10px;
+    }
+
     .cardIcone {
         width: 95px;
         height: 95px;
@@ -281,6 +307,11 @@
         width: 70%;    
         height: 300px;    
     }   
+    .divButtonCadastre {
+        margin-top: 70px;    
+        margin-bottom: 10px;
+    }
+
 
     .cardDivTitulo {
         margin-top: -40px;
