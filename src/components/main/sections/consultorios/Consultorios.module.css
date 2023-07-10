@@ -6,12 +6,10 @@
 .container {
 	display: flex;
 	justify-content: center;
-	max-height: 500px;
+	height: 60vh;
 	gap: 10px;
 	margin: 0 70px 40px 70px;
 	padding: 20px;
-	border-radius: 10px;
-	background: white;
 }
 
 .wrapper {
@@ -19,10 +17,12 @@
 	flex-direction: column;
 	overflow-y: scroll;
 	overflow-x: hidden;
-	width: 40%;
+	width: 15%;
 	min-width: 50px;
 	gap: 10px;
-	padding-right: 10px;
+	padding: 10px;
+	background: white;
+	border-radius: 10px;
 }
 
 .img {
@@ -30,13 +30,15 @@
 }
 
 .wrapperMain {
-	height: 100%;
+	height: auto;
 	width: 100%;
+	padding: 10px;
+	background: white;
+	border-radius: 10px;
 }
 
 .imgMain {
 	object-fit: contain;
-	max-height: 500px;
 	width: 100%;
 	height: 100%;
 }
