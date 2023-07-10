@@ -18,7 +18,7 @@ export default function Consultorios() {
 
 	return (
 		<section className={styles.section} id={"consultorios"}>
-			<Container className={"consultorios"}>
+			<Container sx={{padding: "40px 0px"}} className={"consultorios"}>
 				<TituloSubtitulo sectionName={"consultorios"} />
 				<Swiper
 					pagination={{
