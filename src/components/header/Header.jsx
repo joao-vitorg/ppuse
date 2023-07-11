@@ -11,7 +11,7 @@ import Container from "@mui/material/Container";
 const pages = [
 	["Conheça", "conheca"],
 	["Alugue", "passos"],
-	["Consultorios", "consultorios"],
+	["consultórios", "consultorios"],
 	["Anfitrião", "anfitriao"],
 	["Depoimentos", "depoimentos"],
 	["FAQ", "faq"],
@@ -32,8 +32,15 @@ function ResponsiveAppBar() {
 	return (
 		<AppBar position={"fixed"} component="nav" sx={{ backgroundColor: "black" }}>
 			<Container maxWidth="xl">
-				<Toolbar disableGutters>
-					{/*<LogoDevIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />*/}
+				<Toolbar
+					disableGutters
+					sx={{
+						display: "flex",
+						justifyContent: {
+							md: "center",
+						},
+					}}
+				>
 					<img src="/logo_chamada.png" alt="Logomarca do site PPUSE" height={"50px"} style={{ paddingRight: "10px" }} />
 					<Typography
 						variant="h6"
@@ -110,7 +117,7 @@ function ResponsiveAppBar() {
 					>
 						PPUSE
 					</Typography>
-					<Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+					<Box sx={{ display: { xs: "none", md: "block" } }}>
 						{pages.map((page) => (
 							<Typography
 								key={page}
