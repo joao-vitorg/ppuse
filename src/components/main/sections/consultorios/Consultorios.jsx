@@ -22,6 +22,7 @@ export default function Consultorios() {
 					}}
 					navigation={true}
 					modules={[Pagination, Navigation]}
+					style={{ maxWidth: "800px" }}
 				>
 					<SwiperSlide>
 						<Consultorio imgList={["segundo/1", "segundo/2", "segundo/3", "segundo/4"]} itemId={"57"} />
