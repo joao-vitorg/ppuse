@@ -73,6 +73,7 @@ function ResponsiveAppBar() {
 								vertical: "top",
 								horizontal: "left",
 							}}
+							disableScrollLock={true}
 							open={Boolean(anchorElNav)}
 							onClose={handleCloseNavMenu}
 							sx={{
