@@ -5,6 +5,7 @@
 
 .container {
 	display: flex;
+	justify-content: center;
 	max-height: 400px;
 	gap: 10px;
 	margin: 30px 70px 40px;
