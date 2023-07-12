@@ -18,6 +18,10 @@ const theme = createTheme({
 				       url("./fonts/lineto-circular-pro-book.ttf") format("truetype"),
 				}
 
+				button:hover {
+					cursor : pointer;
+				}
+
 				html {
   				scroll-behavior: smooth;
 				}

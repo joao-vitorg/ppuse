@@ -18,16 +18,14 @@ export default function Consultorio({ imgList, itemId, title, description, locat
 					))}
 				</div>
 				<div className={styles.principal}>
-					<a href={"https://ppuse.com.br/items/" + itemId} target={"__blanck"}>
-						<img src={curImg} />
-					</a>
+					<img src={curImg} />
 				</div>
 			</div>
 			<div className={styles.description}>
 				<Typography
 					variant={"h4"}
 					textAlign={"center"}
-					padding={"20px 0"}
+					margin={"30px 0"}
 					fontWeight={"bold"}
 					color={"#D4676D"}
 					component="a"
