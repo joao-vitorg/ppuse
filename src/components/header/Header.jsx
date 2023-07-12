@@ -41,7 +41,14 @@ function ResponsiveAppBar() {
 						},
 					}}
 				>
-					<img src="/logo_chamada.png" alt="Logomarca do site PPUSE" height={"50px"} style={{ paddingRight: "10px" }} />
+					<a href="#">
+						<img
+							src="/logo_chamada.png"
+							alt="Logomarca do site PPUSE"
+							height={"50px"}
+							style={{ paddingRight: "10px" }}
+						/>
+					</a>
 					<Typography
 						variant="h6"
 						noWrap
