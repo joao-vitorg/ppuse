@@ -6,40 +6,48 @@
 .container {
 	display: flex;
 	justify-content: center;
-	height: 60vh;
+	max-height: 400px;
 	gap: 10px;
-	margin: 0 70px 40px 70px;
-	padding: 20px;
-	margin-top: 30px;
+	margin: 30px 70px 40px;
 }
 
-.wrapper {
+.thumbnails {
 	display: flex;
 	flex-direction: column;
 	overflow-y: scroll;
 	overflow-x: hidden;
-	width: 15%;
-	min-width: 50px;
+	width: 120px;
+	min-width: 100px;
 	gap: 10px;
-	padding: 10px;
-	background: white;
-	border-radius: 10px;
+	padding-right: 10px;
 }
 
-.img {
+.thumbnails img {
 	object-fit: contain;
+	cursor: pointer;
 }
 
-.wrapperMain {
-	height: auto;
-	width: 100%;
-	padding: 10px;
-	background: white;
-	border-radius: 10px;
+.principal {
+	display: flex;
+	max-width: 300px;
 }
 
-.imgMain {
+.principal img {
 	object-fit: contain;
 	width: 100%;
 	height: 100%;
+}
+
+@media (max-width: 600px) {
+	.container {
+		max-height: 300px;
+	}
+
+	.principal {
+		max-width: 220px;
+	}
+
+	.thumbnails {
+		min-width: 50px;
+	}
 }

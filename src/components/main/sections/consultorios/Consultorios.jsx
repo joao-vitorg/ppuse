@@ -8,142 +8,33 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "./style.css";
-import { useState } from "react";
+import Consultorio from "./Consultorio.jsx";
 
 export default function Consultorios() {
-	const [curImg1, setCurImg1] = useState("../../../../consultorios/primeiro/1.jpg");
-	const [curImg2, setCurImg2] = useState("../../../../consultorios/segundo/1.jpg");
-	const [curImg3, setCurImg3] = useState("../../../../consultorios/terceiro/1.jpg");
-	const [curImg4, setCurImg4] = useState("../../../../consultorios/quarto/1.jpg");
-
 	return (
 		<section className={styles.section} id={"consultorios"}>
-			<Container sx={{padding: "40px 0px"}} className={"consultorios"}>
+			<Container sx={{ padding: "40px 0px" }} className={"consultorios"}>
 				<TituloSubtitulo sectionName={"consultorios"} />
 				<Swiper
+					autoHeight={true}
 					pagination={{
 						type: "fraction",
 					}}
 					navigation={true}
 					modules={[Pagination, Navigation]}
+					style={{ maxWidth: "800px" }}
 				>
-					
 					<SwiperSlide>
-						<div className={styles.container}>
-							<div className={styles.wrapper}>
-								<img
-									src={"../../../../consultorios/segundo/1.jpg"}
-									alt={"a"}
-									className={styles.img}
-									onClick={() => setCurImg2("../../../../consultorios/segundo/1.jpg")}
-									style={{ cursor: "pointer" }}
-								/>
-								<img
-									src={"../../../../consultorios/segundo/2.jpg"}
-									alt={"a"}
-									className={styles.img}
-									onClick={() => setCurImg2("../../../../consultorios/segundo/2.jpg")}
-									style={{ cursor: "pointer" }}
-								/>
-								<img
-									src={"../../../../consultorios/segundo/3.jpg"}
-									alt={"a"}
-									className={styles.img}
-									onClick={() => setCurImg2("../../../../consultorios/segundo/3.jpg")}
-									style={{ cursor: "pointer" }}
-								/>
-								<img
-									src={"../../../../consultorios/segundo/4.jpg"}
-									alt={"a"}
-									className={styles.img}
-									onClick={() => setCurImg2("../../../../consultorios/segundo/4.jpg")}
-									style={{ cursor: "pointer" }}
-								/>
-							</div>
-							<div className={styles.wrapperMain}>
-								<a href={"https://ppuse.com.br/items/57"} target={"__blanck"}>
-									<img src={curImg2} alt={"a"} className={styles.imgMain} />
-								</a>
-							</div>
-						</div>
+						<Consultorio imgList={["segundo/1", "segundo/2", "segundo/3", "segundo/4"]} itemId={"57"} />
 					</SwiperSlide>
 					<SwiperSlide>
-						<div className={styles.container}>
-							<div className={styles.wrapper}>
-								<img
-									src={"../../../../consultorios/terceiro/1.jpg"}
-									alt={"a"}
-									className={styles.img}
-									onClick={() => setCurImg3("../../../../consultorios/terceiro/1.jpg")}
-									style={{ cursor: "pointer" }}
-								/>
-								<img
-									src={"../../../../consultorios/terceiro/2.jpg"}
-									alt={"a"}
-									className={styles.img}
-									onClick={() => setCurImg3("../../../../consultorios/terceiro/2.jpg")}
-									style={{ cursor: "pointer" }}
-								/>
-								<img
-									src={"../../../../consultorios/terceiro/3.jpg"}
-									alt={"a"}
-									className={styles.img}
-									onClick={() => setCurImg3("../../../../consultorios/terceiro/3.jpg")}
-									style={{ cursor: "pointer" }}
-								/>
-								<img
-									src={"../../../../consultorios/terceiro/4.jpg"}
-									alt={"a"}
-									className={styles.img}
-									onClick={() => setCurImg3("../../../../consultorios/terceiro/4.jpg")}
-									style={{ cursor: "pointer" }}
-								/>
-								<img
-									src={"../../../../consultorios/terceiro/5.jpg"}
-									alt={"a"}
-									className={styles.img}
-									onClick={() => setCurImg3("../../../../consultorios/terceiro/5.jpg")}
-									style={{ cursor: "pointer" }}
-								/>
-							</div>
-							<div className={styles.wrapperMain}>
-								<a href={"https://ppuse.com.br/items/55"} target={"__blanck"}>
-									<img src={curImg3} alt={"a"} className={styles.imgMain} />
-								</a>
-							</div>
-						</div>
+						<Consultorio
+							imgList={["terceiro/1", "terceiro/2", "terceiro/3", "terceiro/4", "terceiro/5"]}
+							itemId={"55"}
+						/>
 					</SwiperSlide>
 					<SwiperSlide>
-						<div className={styles.container}>
-							<div className={styles.wrapper}>
-								<img
-									src={"../../../../consultorios/quarto/1.jpg"}
-									alt={"a"}
-									className={styles.img}
-									onClick={() => setCurImg4("../../../../consultorios/quarto/1.jpg")}
-									style={{ cursor: "pointer" }}
-								/>
-								<img
-									src={"../../../../consultorios/quarto/2.jpg"}
-									alt={"a"}
-									className={styles.img}
-									onClick={() => setCurImg4("../../../../consultorios/quarto/2.jpg")}
-									style={{ cursor: "pointer" }}
-								/>
-								<img
-									src={"../../../../consultorios/quarto/3.jpg"}
-									alt={"a"}
-									className={styles.img}
-									onClick={() => setCurImg4("../../../../consultorios/quarto/3.jpg")}
-									style={{ cursor: "pointer" }}
-								/>
-							</div>
-							<div className={styles.wrapperMain}>
-								<a href={"https://ppuse.com.br/items/59"} target={"__blanck"}>
-									<img src={curImg4} alt={"a"} className={styles.imgMain} />
-								</a>
-							</div>
-						</div>
+						<Consultorio imgList={["quarto/1", "quarto/2", "quarto/3"]} itemId={"54"} />
 					</SwiperSlide>
 				</Swiper>
 			</Container>

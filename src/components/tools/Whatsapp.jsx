@@ -12,6 +12,7 @@ export default function Whatsapp() {
 				placeholder={"Escreva uma mensagem"}
 				allowEsc={true}
 				allowClickAway={true}
+				avatar={"../../logo_chamada.png"}
 			/>
 		</div>
 	);
