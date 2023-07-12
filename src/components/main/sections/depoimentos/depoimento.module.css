@@ -109,7 +109,7 @@
 	width: 0;
 }
 
-@media screen and (min-width: 1010px) {
+@media screen and (min-width: 1100px) {
 	.cardDepoimento {
 		flex-direction: row;
 		margin-left: 75px;
@@ -139,7 +139,7 @@
 	}
 }
 
-@media screen and (min-width: 1360px) {
+@media screen and (min-width: 1465px) {
 	.cardDepoimento {
 		flex-direction: row;
 		margin-left: 33px;
