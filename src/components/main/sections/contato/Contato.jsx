@@ -239,9 +239,9 @@ export default function Contato() {
 										/>
 									}
 									label={
-										<Typography color={errors.acceptTerms ? "error" : "inherit"}>
-											Li e concordo com os Termos *
-										</Typography>
+									<Typography color={errors.acceptTerms ? 'error' : 'inherit'}>
+										Li e concordo com os <a href="https://ppuse.com.br/pages/terms_of_service" target="_blank"  className={styles.termos}>Termos de serviços</a> e <a href="https://ppuse.com.br/pages/privacy_policy" target="_blank"  className={styles.termos}>Política de privacidade</a>
+									</Typography>
 									}
 								/>
 								<br />

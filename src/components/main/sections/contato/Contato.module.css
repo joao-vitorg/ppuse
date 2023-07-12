@@ -41,3 +41,19 @@
     }
     
 }
+
+
+
+.termos:link {
+    color: #D4676D;
+    text-decoration: none;
+}
+
+.termos:hover {
+    color: #D4676D;
+    text-decoration: underline;
+}
+
+.termos:active {
+    color: #D4676D;
+}

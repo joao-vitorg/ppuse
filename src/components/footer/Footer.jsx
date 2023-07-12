@@ -12,7 +12,7 @@ export default function Footer() {
 						</p>
 					</div>
 					<div className={styles.icone}>
-						<a href="https://www.instagram.com/" target="_blank" rel="" className={styles.iconeInstagram}></a>
+						<a href="https://www.instagram.com/p_p_use/" target="_blank" rel="" className={styles.iconeInstagram}></a>
 					</div>
 				</div>
 			</div>

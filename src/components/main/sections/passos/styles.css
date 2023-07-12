@@ -9,6 +9,11 @@
   align-items: center;
 }
 
+.passos .swiper-button-prev:hover,.passos .swiper-button-next:hover  {
+  filter: drop-shadow(0px 0px 5px #D4676D);
+  -webkit-filter: drop-shadow(0px 0px 5px #D4676D);
+}
+
 .passos .swiper-button-next::after,.passos .swiper-button-prev::after {
   content: "";
 }
